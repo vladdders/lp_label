@@ -1,0 +1,4 @@
+raw/*
+results/*
+!raw/.gitkeep
+!results/.gitkeep
