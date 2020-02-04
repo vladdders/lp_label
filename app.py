@@ -9,11 +9,11 @@ from PIL import Image, ImageTk
 
 ORIGIN_FOLDER = "raw"
 DESTINATION_FOLDER = "results"
+
 CONTENTS = [os.path.join(ORIGIN_FOLDER, i)
             for i in os.listdir(ORIGIN_FOLDER)
             if i.endswith(".jpg") or i.endswith(".png")]
 
-print(CONTENTS)
 UPSCALE_FACTOR = 3
 
 
